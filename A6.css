@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+
+	width: 80%;
+	margin: auto;
+
+}
+
+fieldset{
+
+	padding: 15px;
+	max-height: 600px;
+	font-family: verdana;
+	border-radius: 3px;
+	border: solid brown	2px;
+	margin-left: -40px;
+
+}
+h2{
+
+	text-align: center;
+
+}
+.forms{
+
+	display: flex;
+	justify-content: space-around;
+	gap:20px;
+}
+label{
+
+	display: block;
+	margin: 8px 0px;
+}
+input[type="text"],input[type="email"],input[type="tell"],input[type="date"],input[type="number"],textarea,select,input[type="file"]{
+
+	width: 250px;
+	padding: 4px;
+	border-radius: 3px;
+	border:solid 2px blue;
+	resize: none;
+}
+input[type="submit"],input[type="reset"]{
+
+	padding: 6px 8px;
+	background-color: #eaeaea;
+	border: solid brown 2px;
+	font-family: arial;
+	font-weight: bold;
+	position: relative;
+	left: 500px;
+	border-radius: 3px;
+
+}
+input[type="submit"]:hover{
+
+	background-color: blue;
+	color: white;
+	transition: .5s ease;
+	border: solid blue 2px;
+
+}
+
+input[type="reset"]:hover{
+
+	background-color: blue;
+	color: white;
+	transition: .5s ease;
+	border: solid blue 2px;
+
+}
